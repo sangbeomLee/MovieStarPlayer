@@ -15,6 +15,7 @@
 		DECAA7AA238BCA0900F77862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECAA7A8238BCA0900F77862 /* LaunchScreen.storyboard */; };
 		DECAA7B2238BD02400F77862 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECAA7B1238BD02400F77862 /* Player.storyboard */; };
 		DECAA7B4238BEB2500F77862 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAA7B3238BEB2500F77862 /* VideoModel.swift */; };
+		DECAA7B8238BF20A00F77862 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAA7B7238BF20A00F77862 /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		DECAA7AB238BCA0900F77862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DECAA7B1238BD02400F77862 /* Player.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
 		DECAA7B3238BEB2500F77862 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		DECAA7B7238BF20A00F77862 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				DECAA79F238BCA0500F77862 /* SceneDelegate.swift */,
 				DECAA7A1238BCA0600F77862 /* ViewController.swift */,
 				DECAA7B3238BEB2500F77862 /* VideoModel.swift */,
+				DECAA7B7238BF20A00F77862 /* PlayerViewController.swift */,
 				DECAA7A3238BCA0600F77862 /* Main.storyboard */,
 				DECAA7B1238BD02400F77862 /* Player.storyboard */,
 				DECAA7A6238BCA0900F77862 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				DECAA79E238BCA0500F77862 /* AppDelegate.swift in Sources */,
 				DECAA7A0238BCA0500F77862 /* SceneDelegate.swift in Sources */,
 				DECAA7B4238BEB2500F77862 /* VideoModel.swift in Sources */,
+				DECAA7B8238BF20A00F77862 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MovieStarPlayer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MovieStarPlayer/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

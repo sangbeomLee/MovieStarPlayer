@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Player View Controller-->
         <scene sceneID="0Ai-9h-j0F">
             <objects>
-                <viewController id="gE5-C9-flL" sceneMemberID="viewController">
+                <viewController id="gE5-C9-flL" customClass="PlayerViewController" customModule="MovieStarPlayer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ft7-eT-tF3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,7 +62,7 @@
         <!--Navigation Controller-->
         <scene sceneID="pzn-35-nAD">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3w8-fZ-PiL" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="navigationPlayer" automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="3w8-fZ-PiL" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LNd-Ql-cz9">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
