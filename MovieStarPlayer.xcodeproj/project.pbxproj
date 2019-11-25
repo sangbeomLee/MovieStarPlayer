@@ -16,6 +16,7 @@
 		DECAA7B2238BD02400F77862 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECAA7B1238BD02400F77862 /* Player.storyboard */; };
 		DECAA7B4238BEB2500F77862 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAA7B3238BEB2500F77862 /* VideoModel.swift */; };
 		DECAA7B8238BF20A00F77862 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAA7B7238BF20A00F77862 /* PlayerViewController.swift */; };
+		DECAA7BA238BFD1100F77862 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAA7B9238BFD1100F77862 /* VideoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		DECAA7B1238BD02400F77862 /* Player.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
 		DECAA7B3238BEB2500F77862 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 		DECAA7B7238BF20A00F77862 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		DECAA7B9238BFD1100F77862 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				DECAA7B3238BEB2500F77862 /* VideoModel.swift */,
 				DECAA7B7238BF20A00F77862 /* PlayerViewController.swift */,
 				DECAA7A3238BCA0600F77862 /* Main.storyboard */,
+				DECAA7B9238BFD1100F77862 /* VideoCell.swift */,
 				DECAA7B1238BD02400F77862 /* Player.storyboard */,
 				DECAA7A6238BCA0900F77862 /* Assets.xcassets */,
 				DECAA7A8238BCA0900F77862 /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				DECAA7A0238BCA0500F77862 /* SceneDelegate.swift in Sources */,
 				DECAA7B4238BEB2500F77862 /* VideoModel.swift in Sources */,
 				DECAA7B8238BF20A00F77862 /* PlayerViewController.swift in Sources */,
+				DECAA7BA238BFD1100F77862 /* VideoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
