@@ -75,7 +75,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="xLe-t3-Cqs">
                         <barButtonItem key="leftBarButtonItem" title="Item" id="RfO-E5-ZhK"/>
-                        <barButtonItem key="rightBarButtonItem" title="Item" id="NuE-zd-XYc"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="NuE-zd-XYc">
+                            <connections>
+                                <action selector="addVideo:" destination="BYZ-38-t0r" id="MJz-of-Qc8"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

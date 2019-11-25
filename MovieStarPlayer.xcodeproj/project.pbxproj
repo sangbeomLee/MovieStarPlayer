@@ -14,6 +14,7 @@
 		DECAA7A7238BCA0900F77862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DECAA7A6238BCA0900F77862 /* Assets.xcassets */; };
 		DECAA7AA238BCA0900F77862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECAA7A8238BCA0900F77862 /* LaunchScreen.storyboard */; };
 		DECAA7B2238BD02400F77862 /* Player.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DECAA7B1238BD02400F77862 /* Player.storyboard */; };
+		DECAA7B4238BEB2500F77862 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAA7B3238BEB2500F77862 /* VideoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		DECAA7A9238BCA0900F77862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DECAA7AB238BCA0900F77862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DECAA7B1238BD02400F77862 /* Player.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Player.storyboard; sourceTree = "<group>"; };
+		DECAA7B3238BEB2500F77862 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				DECAA79D238BCA0500F77862 /* AppDelegate.swift */,
 				DECAA79F238BCA0500F77862 /* SceneDelegate.swift */,
 				DECAA7A1238BCA0600F77862 /* ViewController.swift */,
+				DECAA7B3238BEB2500F77862 /* VideoModel.swift */,
 				DECAA7A3238BCA0600F77862 /* Main.storyboard */,
 				DECAA7B1238BD02400F77862 /* Player.storyboard */,
 				DECAA7A6238BCA0900F77862 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				DECAA7A2238BCA0600F77862 /* ViewController.swift in Sources */,
 				DECAA79E238BCA0500F77862 /* AppDelegate.swift in Sources */,
 				DECAA7A0238BCA0500F77862 /* SceneDelegate.swift in Sources */,
+				DECAA7B4238BEB2500F77862 /* VideoModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
