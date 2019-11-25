@@ -20,7 +20,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="774"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="76" id="Kit-jU-rED">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="76" id="Kit-jU-rED" customClass="VideoCell" customModule="MovieStarPlayer" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="76"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Kit-jU-rED" id="deM-s4-ZTV">
@@ -60,6 +60,11 @@
                                                 <constraint firstItem="7ls-QK-xCS" firstAttribute="leading" secondItem="RLu-zx-aFh" secondAttribute="trailing" constant="10" id="nfP-Ik-VDX"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageViewCell" destination="RLu-zx-aFh" id="bzY-C3-Gdd"/>
+                                            <outlet property="labelCell" destination="roc-PF-jML" id="dNI-N8-3eb"/>
+                                            <outlet property="ratingViewCell" destination="7ls-QK-xCS" id="FtS-Q6-5gd"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
