@@ -12,11 +12,11 @@ import AVKit
 class VideoModel {
 
     var title: String
-    var video: AVPlayer
+    var video: AVPlayer?
     var videoIMG: UIImage?
     var rating: Int
     
-    init(title: String, video: AVPlayer, videoIMG: UIImage?, rating: Int){
+    init(title: String, video: AVPlayer?, videoIMG: UIImage?, rating: Int){
         self.title = title
         self.video = video
         self.videoIMG = videoIMG

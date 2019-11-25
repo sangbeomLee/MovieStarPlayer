@@ -11,9 +11,13 @@ import UIKit
 class VideoCell: UITableViewCell {
     
     @IBOutlet weak var imageViewCell: UIImageView!
-    
     @IBOutlet weak var labelCell: UILabel!
-    @IBOutlet weak var ratingViewCell: UIView!
+    @IBOutlet weak var ratingViewCell: RatingView!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Init
+    }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: true)
