@@ -16,24 +16,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bUK-tx-rpu">
-                                <rect key="frame" x="33" y="107" width="97" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bUK-tx-rpu">
+                                <rect key="frame" x="10" y="98" width="394" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EeE-9y-QUK">
-                                <rect key="frame" x="33" y="174" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EeE-9y-QUK">
+                                <rect key="frame" x="10" y="148" width="394" height="221.5"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="EeE-9y-QUK" secondAttribute="height" multiplier="16:9" id="ic3-RV-pDd"/>
+                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WzT-MQ-fDQ">
-                                <rect key="frame" x="33" y="333" width="316" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WzT-MQ-fDQ">
+                                <rect key="frame" x="10" y="384.5" width="394" height="40"/>
                                 <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="7Xn-Yg-Gl0"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BD2-qT-E1U" firstAttribute="trailing" secondItem="bUK-tx-rpu" secondAttribute="trailing" constant="10" id="07L-1p-HvT"/>
+                            <constraint firstItem="EeE-9y-QUK" firstAttribute="top" secondItem="bUK-tx-rpu" secondAttribute="bottom" constant="15" id="0E9-Ys-szm"/>
+                            <constraint firstItem="BD2-qT-E1U" firstAttribute="trailing" secondItem="EeE-9y-QUK" secondAttribute="trailing" constant="10" id="6Fx-VS-XnY"/>
+                            <constraint firstItem="bUK-tx-rpu" firstAttribute="leading" secondItem="BD2-qT-E1U" secondAttribute="leading" constant="10" id="8We-Bd-8mT"/>
+                            <constraint firstItem="BD2-qT-E1U" firstAttribute="trailing" secondItem="WzT-MQ-fDQ" secondAttribute="trailing" constant="10" id="A2i-QX-CfP"/>
+                            <constraint firstItem="WzT-MQ-fDQ" firstAttribute="top" secondItem="EeE-9y-QUK" secondAttribute="bottom" constant="15" id="AYN-Uh-HaB"/>
+                            <constraint firstItem="EeE-9y-QUK" firstAttribute="leading" secondItem="BD2-qT-E1U" secondAttribute="leading" constant="10" id="FBv-OM-bT5"/>
+                            <constraint firstItem="bUK-tx-rpu" firstAttribute="top" secondItem="BD2-qT-E1U" secondAttribute="top" constant="10" id="eUN-RR-ktZ"/>
+                            <constraint firstItem="WzT-MQ-fDQ" firstAttribute="leading" secondItem="BD2-qT-E1U" secondAttribute="leading" constant="10" id="hZr-xq-l9h"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="BD2-qT-E1U"/>
                     </view>
                     <navigationItem key="navigationItem" id="GDG-Cq-aGv">
