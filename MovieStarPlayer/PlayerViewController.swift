@@ -16,4 +16,16 @@ class PlayerViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func closePlayerView(_ sender: Any) {
+        
+        let presentingVC = presentingViewController is UINavigationController
+        
+        // navi에서 온거면 pop 아니면 dismiss
+        if presentingVC {
+            self.dismiss(animated: true, completion: nil)
+        } else{
+            self.navigationController?.popViewController(animated: true)
+        }
+    }
+    
 }
