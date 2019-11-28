@@ -10,6 +10,7 @@ import UIKit
 
 class PlayerViewController: UIViewController {
 
+    @IBOutlet weak var titleTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 

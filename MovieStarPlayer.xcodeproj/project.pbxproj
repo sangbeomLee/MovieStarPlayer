@@ -18,6 +18,7 @@
 		DECAA7B8238BF20A00F77862 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAA7B7238BF20A00F77862 /* PlayerViewController.swift */; };
 		DECAA7BA238BFD1100F77862 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAA7B9238BFD1100F77862 /* VideoCell.swift */; };
 		DECAA7BC238C006B00F77862 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAA7BB238C006B00F77862 /* RatingView.swift */; };
+		DECAA7C2238D0DE300F77862 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECAA7C1238D0DE300F77862 /* VideoPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		DECAA7B7238BF20A00F77862 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		DECAA7B9238BFD1100F77862 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 		DECAA7BB238C006B00F77862 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		DECAA7C1238D0DE300F77862 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				DECAA79F238BCA0500F77862 /* SceneDelegate.swift */,
 				DECAA7A1238BCA0600F77862 /* ViewController.swift */,
 				DECAA7B3238BEB2500F77862 /* VideoModel.swift */,
+				DECAA7C1238D0DE300F77862 /* VideoPlayerViewController.swift */,
 				DECAA7BB238C006B00F77862 /* RatingView.swift */,
 				DECAA7B7238BF20A00F77862 /* PlayerViewController.swift */,
 				DECAA7B9238BFD1100F77862 /* VideoCell.swift */,
@@ -159,6 +162,7 @@
 				DECAA7A0238BCA0500F77862 /* SceneDelegate.swift in Sources */,
 				DECAA7B4238BEB2500F77862 /* VideoModel.swift in Sources */,
 				DECAA7B8238BF20A00F77862 /* PlayerViewController.swift in Sources */,
+				DECAA7C2238D0DE300F77862 /* VideoPlayerViewController.swift in Sources */,
 				DECAA7BA238BFD1100F77862 /* VideoCell.swift in Sources */,
 				DECAA7BC238C006B00F77862 /* RatingView.swift in Sources */,
 			);
